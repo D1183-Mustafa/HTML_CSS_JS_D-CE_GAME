@@ -1,0 +1,74 @@
+@import "./reset";
+@import "./variable";
+
+.container {
+    width: 62.5rem;
+    height: 600px;
+    margin: auto;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &-1,&-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    &-1{
+        background-color:rgba(255,255,255,0.7);
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+    &-2{
+        background-color:rgba(255,255,255,0.3);
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .sayac {
+        font-size: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        // border: 1px solid black;
+        width: 13rem;
+        height: 7.525rem;
+        padding: 7.5px;
+        background-color: #c7365f;
+        border-radius: 16px;
+        color: white;
+    }
+}
+
+.p {
+    font-size: 3rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+.skor {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #c7365f;
+    
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    &-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20rem;
+    }
+
+}
