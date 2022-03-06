@@ -112,6 +112,59 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 10px;
-  margin-top: 20rem;
+  margin-top: 5rem;
+}
+
+.btn .new-game {
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+
+.btn .new-game:active {
+  -webkit-transform: translate(2%, 2px);
+          transform: translate(2%, 2px);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn .role-dice, .btn .hold {
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+
+.btn .role-dice:active, .btn .hold:active {
+  -webkit-transform: translate(2%, 2px);
+          transform: translate(2%, 2px);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.random-zar .img {
+  width: 6rem;
+  margin-top: 10rem;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=main.css.map */
